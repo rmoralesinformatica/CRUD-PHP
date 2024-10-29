@@ -1,11 +1,6 @@
 <?php
-/*Contiene la clase para establecer la conexion con la base de datos (forma parte de la bbdd)
-por lo que debe estar en la carpeta de modelos donde se gestionan las interacciones con la base de datos.
-*/
-
 class Cconectar_modelo
 {
-    //Creamos funcion estatica para no tener que instanciar el objeto para usar la funcion
     public static function conexion()
     {
         try {
