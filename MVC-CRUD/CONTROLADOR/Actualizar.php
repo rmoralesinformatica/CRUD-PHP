@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $apellido = $_POST['apellido'];
     $direccion = $_POST['direccion'];
 
-    //  Verifica que los datos lleguen correctamente
+
     var_dump($_POST);
 
     $sql = "UPDATE datos_usuarios SET Nombre=?, Apellido=?, Direccion=? WHERE Id=?";
