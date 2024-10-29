@@ -1,5 +1,5 @@
 <?php
-    require_once("MODELO/2.Cpersonas_modelo.php"); //Lllamada a el archivo de modelo
+    require_once("MODELO/2.Cpersonas_modelo.php"); 
 
     $persona = new Cpersonas_modelo();
   
@@ -13,4 +13,4 @@
         }
     }
 
-    require_once("VISTA/1.personas_vista.php"); //llamada al archivo de vista 
+    require_once("VISTA/1.personas_vista.php"); 
